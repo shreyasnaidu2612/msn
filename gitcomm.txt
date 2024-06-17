@@ -1,0 +1,34 @@
+Clone
+$git clone https://......
+Fetch
+$git fetch -all
+$git fetch --append
+$git fetch --multiple
+$git fetch --dry-run
+
+$git remote add repo https://.....
+$git fetch repo
+$git remote -v
+
+$git log
+
+Create branch
+$git branch a1
+
+List branches
+$git branch
+
+Switch branches
+$git branch -M a1
+
+Create new branch and switching 
+$git checkout -b a2
+
+Delete a branch
+$git branch -d a1
+
+Pull 
+$git pull origin main
+
+Reset 
+$git reset --soft
